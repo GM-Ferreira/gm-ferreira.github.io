@@ -39,12 +39,16 @@
 
         .rodape{
             background-color: #9F7E69;
-            color: white;
-            text-decoration:none;
-            font-size:14px;
+            font-size:13px;
+            color: whitesmoke;
+            list-style-type:none;
             line-height: 20px;
             padding-bottom: 10px;
             padding-top: 10px;
+        }
+        .rodape a{
+            text-decoration: none;
+            color: white;
         }
 
         h3 {
