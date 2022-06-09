@@ -37,6 +37,14 @@
             font-family: 'Montserrat', sans-serif;
         }
 
+        .sites-externos a{
+            text-decoration-line: none;
+        }
+
+        .sites-externos a:hover{
+            color: red;
+        }
+
         .rodape{
             background-color: #9F7E69;
             font-size:13px;
@@ -49,6 +57,11 @@
         .rodape a{
             text-decoration: none;
             color: white;
+        }
+
+        .rodape a:hover{
+            background-color: #222831;
+            padding: 3px;
         }
 
         h3 {
