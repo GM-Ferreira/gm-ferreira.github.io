@@ -1,0 +1,87 @@
+       .foto-rosto {
+            border-radius: 20%;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .perfil img{
+            float: left;
+            margin-left: 20px;
+            width: 250px;
+            padding: 2px;
+            background-color: #222831;
+        }
+
+        .foto-e-texto{
+            height: 250px; 
+            position: relative;
+        }
+
+        .foto-e-texto p {
+            text-align: center;
+            position:absolute;
+            top: 30%;
+            margin-left: 280px;
+            width: 300px;
+            }
+
+        .titulo-nome {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #222831;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        .fonte-dados {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .sites-externos a{
+            text-decoration-line: none;
+        }
+
+        .sites-externos a:hover{
+            color: red;
+        }
+
+        .rodape{
+            background-color: #9F7E69;
+            font-size:13px;
+            color: whitesmoke;
+            list-style-type:none;
+            line-height: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .rodape a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .rodape a:hover{
+            background-color: #222831;
+            padding: 3px;
+        }
+
+        h3 {
+            background-color: #242F40;
+            color: white;
+            padding: 10px 10px;
+            border: 10px;
+        }
+
+        h4 {
+            background-color: #242F40;
+            color: white;
+            padding: 10px 10px;
+            margin-bottom: -20px;
+        }
+        ul{
+            line-height: 25px;
+            
+        }
+
+        body {
+            background-color: #EEEEEE;
+        }
