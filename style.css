@@ -1,36 +1,52 @@
-.perfil{
-    /* border: 1px solid black; */
-    text-align: center;
+.perfil {
+  text-align: center;
 }
 
-.titulo-nome{
-background-color: #242f40;
-/* display: inline-block; */
-border-radius: 10px;
-width: auto;
-padding: 10px;
-color: white;
-font-weight: 100;
-font-style: italic;
+.titulo-nome {
+  background-color: #242f40;
+  border-radius: 10px;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: 100;
+  font-style: italic;
 }
 
-.foto-rosto{
-    border-radius: 35%;
-    background-color: #242f40 ;
-    padding: 2px;
-    width: 25%;
+.foto-rosto {
+  border-radius: 35%;
+  background-color: #242f40;
+  padding: 2px;
+  width: 25%;
 }
 
-.foto-e-texto p{
-    width: 400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.foto-e-texto p {
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-section{
-    border: 1px solid black;
-    text-align: center;
-    display: inline-block;
-    width: 400px;
+section {
+  border: 1px solid black;
+  text-align: left;
+  display: inline-block;
+  width: 90%;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section li {
+  padding: 2px;
+}
+
+section h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
