@@ -12,67 +12,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="fonte-dados">
+<body class="fonte-dados imagem">
 
-  <!-- Perfil incial -->
-  <div class="perfil">
-    <h1 class="titulo-nome">Guilherme Moraes Ferreira</h1>
-    <div id="foto" class="foto-e-texto">
-      <img class="foto-rosto" src="https://avatars.githubusercontent.com/u/106778165?v=4"
-        alt="Foto de perfil de Guilherme">
-      <p><em>Olá, seja bem-vindo ao meu portifólio. Aqui você irá encontrar projetos, ideias e muitos
-          aprendizados.</em></p>
+  <header class="header">
+    <h1 class="home-title">Home</h1>
+    <div class="logos">
+      <a target="_blank" href="https://www.linkedin.com/in/guilherme-moraes-ferreira/">
+        <img class="linkedin-logo" src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png" alt="linkedin logo">
+      </a>
+      <a target="_blank" href="https://github.com/GM-Ferreira">
+        <img class="github-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo">
+      </a>
+    </div>
+  </header>
+
+  <!-- ![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![lint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) -->
+
+  <div class="profile">
+    <div class="profile-text">
+      <h1>Hi, I am Guilherme 👋</h1>
+      <h1>Fullstack Web Development Student</h1>
+    </div>
+      <div id="foto" class="foto-e-texto">
+        <img class="profile-pic" src="https://avatars.githubusercontent.com/u/106778165?v=4"
+          alt="Foto de perfil de Guilherme">
+      </div>
+  </div>
+
+  <div class="soon">
+    <p id="soon">Coming soon...</p>
+  </div>
+
+  <!-- Portfolio -->
+  <div>
+    <h2 class="projects-text">First Steps</h2>
+    <hr />
+    <div class="projects-links">
+      <div class="trybeWallet-div">
+        <h4 class="project-title">TrybeWallet:</h4>
+        <a target="_blank" href="https://trybewalletreactredux.vercel.app/"><img class="image-project"
+            src="trybeWallet.png" alt="Imagem referente ao projeto TrybeWallet"></a>
+        <p class="legenda">Click to visit</p>
+      </div>
+      <div class="recipes-div">
+        <h4 class="project-title">JSON.foodfy():</h4>
+        <a target="_blank" href="https://project-json-foodfy-gm-ferreira.vercel.app/"><img class="image-project"
+            src="recipes2.png" alt="Imagem referente ao projeto JSON.foodfy"></a>
+        <p class="legenda">Click to visit</p>
+      </div>
     </div>
   </div>
 
-  <!-- Dados iniciais -->
-  <div class="container">
-    <section class="dados">
-      <h3 id="dados">Alguns dados relevantes:</h3>
-      <ul>
-        <li>Brasileiro</li>
-        <li>25 anos</li>
-        <li>Engenheiro</li>
-        <li>Casado</li>
-        <li>Nascido em Orlândia</li>
-        <li>Apaixonado por descobrir como as coisas funcionam</li>
-        <li>Residindo atualmente em Araraquara-SP</li>
-        <li>Estudande FullStack WEB na Trybe</li>
-      </ul>
-      <br>
-    </section>
-  </div>
-
-  <!-- Habilidades -->
-  <h3 id="habilidades">Habilidades</h3>
-  <ul>
-    <li>Falante de <strong>inglês </strong><s>graças aos games</s>.</li>
-    <li><a href="#foto">Quem</a> você chama pra <strong>resolver</strong> aquele pepino de Excel.</li>
-    <li>Facilidade de <strong>comunicação e trabalho em equipe.</strong></li>
-    <li>Altamente <strong>resiliente</strong> (daqueles que não desiste nem que a vaca tussa).</li>
-  </ul>
-  <br><br>
-
-  <!-- Sites -->
-  <div class="links-externos">
-    <h2 id="portifolio">Portifólio</h2>
-    <div class="trybeWallet-div">
-      <h4>TrybeWallet:</h4>
-      <a target="_blank" href="https://trybewalletreactredux.vercel.app/"><img class="image-trybeWallet"
-          src="trybeWallet.png" alt="Imagem referente ao projeto TrybeWallet"></a>
-      <p class="legenda">Clique para visitar a página</p>
-    </div>
-  </div>
-
-  <!-- Links para voltar -->
-  <h4>Índice</h4>
-
-  <ul class="rodape">
-    <li><a href="#foto">Foto</a></li>
-    <li><a href="#dados">Informações</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#portifolio">Portifólio</a></li>
-  </ul>
+  <footer class="footer">
+    © 2022 Guilherme Ferreira
+  </footer>
 </body>
 
 </html>

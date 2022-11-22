@@ -1,54 +1,68 @@
-.perfil {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.titulo-nome {
-  background-color: #242f40;
-  border-radius: 10px;
-  width: auto;
-  padding: 10px;
-  color: white;
-  font-weight: 100;
-  font-style: italic;
+.imagem {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a324250-d408-4f66-b4fb-5be4e64e742d/d321hr6-adb3c04b-4b10-4331-8cdf-b9840a56e5da.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhMzI0MjUwLWQ0MDgtNGY2Ni1iNGZiLTViZTRlNjRlNzQyZFwvZDMyMWhyNi1hZGIzYzA0Yi00YjEwLTQzMzEtOGNkZi1iOTg0MGE1NmU1ZGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4xtBalW5nLyqm6sVTOha_DHpqcXq6Ka669v8prkoWqE);
+  background-color: #fff;
+  border: transparent;
+  background-size: 2%;
 }
 
-.foto-rosto {
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.profile-text{
+  color: #28374e;
+  font-size: 20px;
+}
+
+.home-title{
+  font-size: 22px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 20px 1px 20px;
+  color: black;
+  background-color: #5473a1;
+  height: 55px;
+}
+
+.linkedin-logo, .github-logo{
+  width: 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.github-logo:hover, .linkedin-logo:hover {
+  width: 40px;
+  margin: 5px;
+}
+
+.profile-pic {
   border-radius: 35%;
-  background-color: #242f40;
   padding: 2px;
-  width: 25%;
+  width: 70%;
 }
 
-.foto-e-texto p {
-  width: 400px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section {
-  border: 1px solid black;
-  text-align: left;
-  display: inline-block;
-  width: 90%;
-}
-
-section ul {
-  list-style-type: none;
-}
-
-section li {
-  padding: 2px;
-}
-
-section h3 {
-  text-align: center;
-}
-
-.container {
+.soon {
+  margin-top: 300px;
+  margin-bottom: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: #28374e;
 }
 
 .trybe-wallet-frame {
@@ -57,14 +71,14 @@ section h3 {
   border: none;
 }
 
-.image-trybeWallet {
+.image-project {
   width: 550px;
   height: 275px;
   border-radius: 15px;
 }
 
 .legenda {
-  font-size: small;
+  font-size: medium;
   font-style: italic;
 }
 
@@ -72,4 +86,40 @@ section h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+}
+
+.projects-text{
+  font-size: 30px;
+  font-weight: 800;
+  color: #28374e;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipes-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.projects-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #28374e;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  color:#757575;
+  background-color: #f5f5f5;
+  height: 65px;
 }
