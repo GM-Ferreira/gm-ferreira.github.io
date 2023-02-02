@@ -82,6 +82,38 @@
   font-style: italic;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.repository {
+  font-size: larger;
+  color: black;
+  padding: 20px;
+}
+
+.repository:hover {
+  color: blue;
+  font-style: italic;
+}
+
+.application {
+  font-size: larger;
+  color: black;
+  padding: 20px;
+}
+
+.application:hover {
+  color: blue;
+  font-style: italic;
+}
+
+.links-repos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .trybeWallet-div {
   display: flex;
   flex-direction: column;
@@ -94,7 +126,8 @@
   font-weight: 800;
   color: #28374e;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .recipes-div {
